@@ -1,0 +1,14 @@
+Package: vennRanges
+Type: Package
+Title: Venn Diagrams of Genomic Ranges
+Version: 0.1
+Date: 2016-03-31
+Author: Antonio Mora
+Maintainer: Antonio Mora <antoniocmora@gmail.com>
+Description: vennRanges is an R package to build venn diagrams showing the overlap between genomic ranges files (bed files), using different kinds of methodologies.
+License: GPL (>= 2)
+Depends: R (>= 3.2.1)
+Imports:
+        GenomicRanges
+	VennDiagram
+
