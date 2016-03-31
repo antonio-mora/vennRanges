@@ -9,6 +9,5 @@ Description: vennRanges is an R package to build venn diagrams showing the overl
 License: GPL (>= 2)
 Depends: R (>= 3.2.1)
 Imports:
-        GenomicRanges
-	VennDiagram
-
+GenomicRanges
+VennDiagram
