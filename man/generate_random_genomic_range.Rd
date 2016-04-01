@@ -14,7 +14,7 @@ generate_random_genomic_range(number_chrom, size_range, size_inter_range, number
 A dataframe with the specified number of chromosomes and genomic ranges per chromosomes, where genomic ranges and inter-ranges distances are randomly chosen from an uniform distribution between specified integer values.
 }
 \description{
-This is a function to generate dataframes of genomic ranges in a fast way. It is not meant to work as a background for statistical analyses, but only to allow fast testing of all the other functions. This function can take four arguments: The number of chromosomes to be included in the resulting dataframe, a range to sample the sizes of each genomic range (using R's "sample" function), a range to sample the sizes of the inter-range distances (using again "sample"), and the number of ranges we want to create per chromosome.
+This is a function to generate dataframes of genomic ranges in a fast way. It is not meant to work as a background for statistical analyses, but only to allow fast testing of all the other functions. This function can take four arguments: The number of chromosomes to be included in the resulting dataframe, a range to sample the sizes of each genomic range (using R "sample" function), a range to sample the sizes of the inter-range distances (using again "sample"), and the number of ranges we want to create per chromosome.
 }
 \examples{
 a <- generate_random_genomic_ranges()
