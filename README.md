@@ -29,5 +29,5 @@ We can use the *draw_2_venn*, *draw_3_venn*, and *draw_4_venn* functions to buil
 ```
 draw_2_venn(a, b)
 x11(); draw_3_venn(a, b, c, "A", "B", "C", "gray", "purple", "pink")
-x11(); draw_4_venn(a, b, c, d, "A", "B", "C", "D", "green", "purple", "red", "yellow")
+x11(); draw_4_venn(a, b, c, d, "A", "B", "C", "D", "green", "purple", "red", "yellow", 'raw', 1)
 ```
