@@ -19,7 +19,7 @@ head(c)
 head(d)
 ```
 ### Step 2.
-We can use the *full_range_comparison* function to check how intersection between A and B can be different to the intersection between B and A.
+We can use the *full_range_comparison* function to check the intersection, union and differences between two files, and how intersection between A and B can be different to the intersection between B and A.
 ```
 ab_comparison <- full_range_comparison(a, b)
 lapply(ab_comparison, dim)
