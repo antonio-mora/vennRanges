@@ -11,7 +11,7 @@ b <- generate_random_genomic_range()
 c <- generate_random_genomic_range()
 d <- generate_random_genomic_range()
 ```
-Here we have generated four genomic range files with the default parameters of the function (see: *?generate_random_genomic_ranges*).
+Here we have generated four genomic range files with the default parameters of the function (see: *?generate_random_genomic_range*).
 ```
 head(a)
 head(b)
