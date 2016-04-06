@@ -1,2 +1,1 @@
-export(range_comparison)
-export(full_range_comparison)
+export(range_comparison, full_range_comparison, generate_random_genomic_range, draw_2_venn, draw_3_venn, draw_4_venn)
